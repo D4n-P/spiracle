@@ -4,7 +4,7 @@ pipeline {
     stage('build') {
       steps {
         sh 'mvn clean'
-        sh 'mvn install -Dversion.webxml=25'
+        sh 'mvn install -Dversion.webxml=36'
       }
     }
   }
