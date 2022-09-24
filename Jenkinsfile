@@ -3,8 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'mvn clean'
-        sh 'mvn install -Dversion.webxml=36'
+        sh 'mvn clean install -Dversion.webxml=30'
       }
     }
   }
